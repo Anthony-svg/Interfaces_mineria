@@ -1,14 +1,11 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
     <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
-    <br>
-    <br>
-      <pagina-inicio msg="Ingresa tu identificación"/>
-      
+    <pagina-inicio msg="Ingresa tu credencial"/>
 </template>
 
 <script>
-import PaginaInicio from './components/paginaInicio.vue'
+import PaginaInicio from './views/paginaInicio.vue'
 //import HelloWorld from './components/HelloWorld.vue'
 
 export default {
